@@ -21,7 +21,7 @@ import com.murshed.account.app.entities.Account;
 import com.murshed.account.app.service.AccountManagementService;
 
 @RestController
-@RequestMapping(value = "/api" )
+@RequestMapping(value = "/api/accounts" )
 public class AccountManagementController {
 	
 	@Autowired
